@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: 'inconsolata';
+	src:url(fonts/inconsolata/Inconsolata-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+body{
+	width: 100%;
+	margin:0;
+	font-family: inconsolata;
+}
+h1{
+	text-align: center;
+	margin-top: 10%;
+}
+#title{
+	text-align: center;
+}
+#buttons{
+	text-align:center;
+	margin-bottom: 10px;
+}
+footer{
+	text-align: center;
+	background-color: #bae3ff;
+}
+
+#container{
+	margin: 1.5em;
+	margin-top:11em;
+	min-width:300px;
+}
+#list{
+	display:flex;
+	flex-wrap:wrap;
+	list-style: none;
+	padding:14px 28px;
+	margin:0;
+	background-color:#bae3ff;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	padding-left: 1em;
+	padding-right: 1em;
+	height:5.5em;
+	text-transform: uppercase;
+	justify-content: center;
+	border-bottom: 1px solid #84153a;
+	font-size: 1.3em;
+}
+
+.side-bar{
+	list-style: none;
+	padding:.2em;
+	margin:0;
+}
+
+li {
+	margin: 1.3em;
+}
+.box{
+	border-radius: 20px;
+	background-color:#bae3ff;
+	padding:20px;
+
+}
+#methods{
+	display:grid;
+	grid-template-columns: .5fr 1fr 1.5fr;
+	grid-column-gap:10px;
+}
+#approaches, #marriage-p, #effects, #descr-risk{
+	display:grid;
+	grid-template-columns: .4fr 1fr;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-column-gap: 10px;
+
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 1.5fr 1.5fr;
+	column-gap: 20px;
+	grid-row-gap: 1em;
+	grid-column-start: -3;
+	grid-column-end: -1;
+}
+#effects{
+	grid-template-columns: .27fr .6fr .5fr;
+	grid-column-gap: 20px;
+	margin-right: 1em;
+
+
+}
+#approaches, #marriage-p, #descr-risk, .wrapper{
+	display:block;
+	margin-left: 1em;
+	margin-right:1em;
+}
+.para{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
+}
+
+#marriage, #risks{
+	display:grid;
+	grid-template-columns: .3fr 1.5fr;
+	grid-column-gap:20px;
+	margin:auto;
+}
+
+#mar, #trouble{
+	width:90%;
+	margin:auto;
+}
+#children, #fight{
+	margin:auto;
+	width:100%;
+}
+
+
+.factors{
+	display:block;
+}
+
+p{
+	line-height: 25px;
+}
+
+a:link, a:visited{
+	color:#84153a;
+	/*pinkish/redish*/
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+a:active{
+	color:gold;
+	text-decoration: none;
+}
+
+
+/*@Media inquiries*/
+
+@media only screen and (max-width:990px){
+	#marriage-p, #marriage, #risks, #effects, .wrapper, #approaches, #methods, #descr-risks, .para {
+		display:block;
+	}
+	#container{
+		display:block;
+		height: auto;
+	}
+	#list{
+		height:auto;
+		position:relative;
+		flex-direction: column;
+	}
+	
+	.side-bar{
+	  	display:none;
+	}
+	.image-m{
+		width:100%;
+	}
+
+}

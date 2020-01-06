@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: 'inconsolata';
+	src:url(fonts/inconsolata/Inconsolata-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+#container, #main{
+	margin: 1.5em;
+	font-family: inconsolata;
+	margin-top:6.5em;
+
+}
+#list{
+	display:flex;
+	flex-wrap:wrap;
+	font-family: inconsolata;
+	align-items: center;
+	list-style: none;
+	padding:0;
+	margin:0;
+	background-color:#bae3ff;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	height:6em;
+}
+.side-bar{
+	list-style: none;
+	padding:.2em;
+	margin:0;
+}
+li {
+	margin: 1.3em;
+}
+.box-1, .box-2, .box-3, .box-4{
+	border-radius: 20px;
+	background-color:#bae3ff;
+	padding:20px;
+
+}
+#methods{
+	display:grid;
+	grid-template-columns: .1fr 1fr 1.5fr;
+	grid-column-gap:10px;
+}
+#approaches, #marriage-p, #effects, #descr-risk{
+	display:grid;
+	grid-template-columns: .5fr 1fr;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-column-gap: 10px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 1.5fr 1.5fr;
+	column-gap: 20px;
+	grid-row-gap: 1em;
+	grid-column-start: -3;
+	grid-column-end: -1;
+}
+#effects{
+	grid-template-columns: .5fr .5fr 1.3fr;
+	grid-column-gap: 20px;
+
+}
+
+#marriage, #risks{
+	display:grid;
+	grid-template-columns: .3fr 2fr;
+	grid-column-gap:20px;
+}
+.image-m{
+	margin:auto;
+}
+
+a:link, a:visited{
+	color:#84153a;
+	/*pinkish/redish*/
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+a:active{
+	color:gold;
+	text-decoration: none;
+}

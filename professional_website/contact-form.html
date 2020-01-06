@@ -1,0 +1,40 @@
+<!-- web form for when someone wants to send any inqueries -->
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+    	<meta charset="utf-8">
+    	<title>Contact Form</title>
+    	<link rel = "icon" type = "image/png" href = "pics/logo.png">
+    	<link rel = "stylesheet" href = "professional.css">
+    	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+  	</head>
+
+  	<body>
+  		<main>
+  		<div id = "form">
+	  		<form method = "post" action = "https://formspree.io/ic923@nyu.edu">
+	  		<!-- required text -->
+	  		<h1>Contact Form</h1>
+	  		<p>Have any questions/concerns? Fill out the information below and you shall be contacted back shortly.</p>
+	  			<div id = "twocol">
+		  			<p>First Name:* <input type = "text" name = "first-name" size = "35" id = "textbox1" required></p>
+		  			<p>Last Name:* <input type = "text" name = "last-name" size = "35" id = "textbox2" required></p>
+		  			<p>Email:* <input type = "email" name = "email" size = "35" id = "textbox3" required></p>
+		  			<p>Subject:* <input type = "text" name = "text" size = "35" id = "textbox4" required></p>
+		  		</div>
+	  			<p>Message:*</p>
+	  				<textarea name = "name" cols = "127" rows = "7" placeholder = "Enter message here."></textarea>
+
+	  		<!-- form submition -->
+	  			<p><input type = "submit" id = "buttonsend" value = "Send"></p>
+	  		</form>
+	  		<button id = "return"><a href = "professional-main.html">Return</a></button>
+	  	</div>
+  		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src = "js/jquery.validate.min.js"></script>
+    	<script src="js/parallax.min.js"></script>
+    	</main>
+  	</body>
+
+</html>

@@ -1,0 +1,124 @@
+/*Me stylesheet*/
+.intro{
+	float:left;
+	width:30em;
+	margin:7em;
+	margin-top:5em;
+	background-color: #bae3ff;
+}
+.para{
+	color:white;
+	background-color: #bae3ff;
+}
+.proj-about{
+	clear:both;
+}
+
+h1, h2,h3, body {
+	background-color: pink;
+	text-align:center;
+	font-family: Helvetica;
+}
+h1{
+	font-size:3em;
+}
+h2{
+	font-size:2em;
+}
+
+h3{
+	font-size:1.5em;
+	border: 1.5px solid black;
+	background-color:#bae3ff;
+	padding: 10px;
+	margin: 50px;
+	color:black;
+}
+p{
+	background-color: white;
+	color:black;
+	font-size:1.2em;
+	font-family:sans-serif;
+}
+
+
+body{
+	background-image: url(pics/pokemon.jpg);
+	background-color: #bae3ff;
+	background-size:100% auto;
+	color: #ffffff;
+	background-attachment: fixed;
+}
+
+
+#about,#proj{
+	border: 3px solid #bae3ff;
+	padding: 30px;
+	margin: 30px;
+}
+
+ul{
+	text-align:left;
+	margin-left: 15em;
+	margin-right: 15em;
+	color:black;
+	font-size:1.5em;
+	border:2px solid #bae3ff;
+	padding:.5em;
+	background-color:white;
+}
+.stuff{
+	list-style-type:circle;
+	list-style-image:url(pics/danilo-heart.jpg);
+	list-style-position: inside;
+	overflow:hidden;
+}
+
+#vids{
+	list-style-type:square;
+	list-style-image:url(pics/kermit.jpg);
+	list-style-position: inside;
+}
+
+#moto{
+	border-top:3px solid orange;
+	border-bottom:3px solid orange;
+	float:right;
+	margin: 2em;
+	width:350px;
+}
+#star{
+	border-left: 3px solid orange;
+	border-right: 3px solid orange;
+	float:left;
+	margin:.5em;
+	width:200px;
+	margin-left: 7em;
+}
+#break{
+	padding-bottom:10px;
+	clear:both;
+	background-color: pink;
+}
+#original{
+	clear:both;
+	background-color:pink;
+	padding:.5em;
+}
+
+
+a:link {
+	color: #4d8ecc;
+	/*type of blueish purple - more blue*/
+}
+a:visited {
+	color: #64ba67;
+	/*a type of green*/
+}
+a:hover {
+	color:gold;
+	background-color: beige;
+}
+a:active{
+	color:purple;
+}

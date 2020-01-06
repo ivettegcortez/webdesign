@@ -1,0 +1,82 @@
+/*stylesheet for main page*/
+body{
+	background-color:white;
+	font-family: Arial;
+	margin:0;
+	padding:0;
+}
+#logo{
+	float:right;
+}
+header{
+    background-color:#745fa8;
+    padding:.3em;
+    margin:0;
+    position: fixed;
+    width:100%;
+    height:4em;
+    top:0;
+}
+h1{
+	margin-left: 1em;
+	color:white;
+}
+#banner{
+	width:100%;
+	margin-top: 4em;
+}
+#content{
+	margin:1.5em;
+	padding:3em;
+}
+p{
+    line-height: 25px;
+}
+main{
+    clear:both;
+}
+nav{
+    margin-top: 6em;
+}
+#peru{
+    width:100%;
+    margin:0;
+	padding:0;
+}
+
+footer{
+	background-color:black;
+	text-align: center;
+	padding:2em;
+	margin-bottom: 0;
+	color:white;
+}
+nav ul {
+	font-size: 1.5em;
+	list-style: none;
+	color:white;
+	display:grid;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-template-columns: .5fr;
+	margin-left: 7em;
+}
+.box{
+	border-radius: 20px;
+	padding:.5em;
+	margin:.5em;
+	background:#745fa8;
+	text-align: center;
+}
+
+a:link, a:visited{
+	color: #e8a4e4;
+	/*pinkish*/
+	text-decoration: none;
+}
+a:hover{
+	color:gold;
+}
+a:active{
+	color:#c199bf;
+}
