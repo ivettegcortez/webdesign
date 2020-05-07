@@ -1,4 +1,3 @@
-<!-- make separate pages for projects and then have a slidewhow kind of thing -->
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
@@ -12,21 +11,6 @@
 	<body>
 	<header>
 		<h1>Ivette Cortez</h1>
-		<!-- <div class = "navbar">
-				<a href = "#projects"><button>Projects</button></a>
-					<div class = "dropdown-content">
-						<a href = #visuals>Visual Art</a>
-						<a href = "#digitals">Digital Art</a>
-					</div>
-				<a href = "#experiences"><button>Professional Experiences</button></a>
-					<div class = "dropdown-content">
-						<a href = #jobs>Work</a>
-						<a href = "#internships">Internship</a>
-						<a href = "volunteering">Volunteering</a>
-					</div>
-				<a href = "../me/about-me.html"><button>About Me</button></a>
-				<a href = "../index.html"><button>Home</button></a>
-		</div> -->
 		<nav>
 			<ul class = "links">
 				<li><a href = "#projects">Projects</a></li>
@@ -48,14 +32,13 @@
 		      			<source src="audio/muffin-song.mp3" type="audio/mpeg">
 		      			Your browser does not support the audio element.
 		    		</audio><br>
-		    		<!-- <button><a id = "source" href = "https://www.youtube.com/watch?v=veWAMu8bvh8">Click to see music video</a></button> -->
+		    		<p id = "audiotitle"><em>Title</em></p>
 	    		</div>
 		 	<h2><span id = "projects">Projects</span></h2>
-		 		<div class="parallax-window" data-parallax="scroll" data-image-src="pics/art.jpg"></div>
-		 		<h3><span id = "visuals">Visual Art</span></h3>
-		 			<!-- <p class= "extra" id = "plus"><a href="#">+</a></p>
-		 			<h4 class = "extra" id = "info"><a href="#">Show All Info</a></h3> -->
-
+		 		<!-- <div class="parallax-window" data-parallax="scroll" data-image-src="pics/art.jpg"></div> -->
+		 		<h3><span id = "visuals">Visual Art</span>
+		 			<span id = "ArtInfo">+</span></h3>
+		 		<div id = "Art" style = "display:none">
 			 		<div id = "vis-arts">
 			 			<div class = "piece">
 				 			<img src = "visual-art/pencil-hair.jpg" srcset = "visual-art/higher-res-vis-pics/pencil-hair-copy2x.jpg 2x" width = "300" height = "365" alt = "Hair drawing with pencil">
@@ -137,9 +120,12 @@
 				 			<p class = "artinfo">Title: Mother Painting<br>Medium: Oil Paint</p>
 				 		</div>
 				 	</div>
+				 </div>
 
-				<div class="parallax-window" data-parallax="scroll" data-image-src="pics/wacom.jpg"></div>
-		 		<h3><span id = "digitals">Digital Art</span></h3>
+				<!-- <div class="parallax-window" data-parallax="scroll" data-image-src="pics/wacom.jpg"></div> -->
+		 		<h3><span id = "digitals">Digital Art</span>
+		 			<span id = "DigitalInfo">+</span></h3>
+		 			<div id = "digital" style = "display: none">
 		 			<div id = "dig-arts">
 
 		 				<div class = "piece">
@@ -182,14 +168,15 @@
 		 					<p class = "artinfo">Title: Natural Giraffe Riding<br>Medium: Photoshop</p>
 		 				</div>
 		 			</div>
-		 		<div class="parallax-window" data-parallax="scroll" data-image-src="pics/paper.jpg"></div>
+		 		</div>
+		 		<!-- <div class="parallax-window" data-parallax="scroll" data-image-src="pics/paper.jpg"></div> -->
 		 	<h2><span id = "experiences">Experiences</span></h2>
 		 		<h3><span id = "jobs">Work</span></h3>
 		 			<div id = work>
 		 				<h4>Modern Martial Arts<br>
 		 					<em><strong>Office Coordinator</strong></em><br>
 		 					<em>New York City, NY<br>
-		 					July 2019 - Present</em></h4>
+		 					July 2019 - March 2020</em></h4>
 
 		 					<nav>
 		 						<ul class = "experiences-listed">
@@ -273,7 +260,6 @@
 		 </div>
 		 <footer>
 		 	<p><a href = "contact-form.html">Contact</a></p>
-		 	<p><a href = "ivette-cortez-resume.pdf">Resume</a></p>
 		 	<p><a href = "https://www.linkedin.com/in/ivettecortez/"><img id = "linkedin" src = "../me/pics/linkedin.jpg" alt = "LinkedIn" width = "50" height = "50"></a></p>
 		 </footer>
 		<script src = "js/jquery-3.3.1.min.js"></script>
