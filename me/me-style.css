@@ -43,19 +43,13 @@ p{
 
 
 body{
-	background-image: url(pics/pokemon.jpg);
+	/*background-image: url(pics/pokemon.jpg);*/
 	background-color: #bae3ff;
 	background-size:100% auto;
 	color: #ffffff;
 	background-attachment: fixed;
 }
 
-
-#about,#proj{
-	border: 3px solid #bae3ff;
-	padding: 30px;
-	margin: 30px;
-}
 
 ul{
 	text-align:left;

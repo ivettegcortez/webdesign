@@ -1,0 +1,177 @@
+/*new css for about me*/
+@font-face{
+	src:url('knewave.ttf');
+	font-family: kneewave;
+}
+
+@font-face{
+	src:url('Linden Hill.otf');
+	font-family: Linden Hill;
+}
+body{
+	margin:0em;
+	padding:0em;
+	background-color: #e8b3cf;
+	/*soft pink*/
+	text-align: center;
+	font-family: kneewave;
+}
+p{
+	font-family: Linden Hill;
+}
+h1, h2{
+	color:white;
+	text-align: center;
+}
+
+h1{
+	font-size: 3em;
+}
+#aboutme{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+@keyframes move{
+	0%{transform:translateX(-100px);}
+	100%{transform:translateX(50px);}
+}
+.circle{
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:50px;
+	left:120px;
+	border-radius: 100%;
+	background-color: white;
+	background-image: url("pics/pokemon.jpg");
+	box-shadow: -10px 10px  rgba(0,0,0,0.6);
+	animation:move 3s alternate infinite;
+}
+
+.circle:nth-child(2){
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:230px;
+	left:1200px;
+	border-radius: 100%;
+	background-color: white;
+	background-image: url("pics/pokemon.jpg");
+	box-shadow: 10px 10px  rgba(0,0,0,0.6);
+	animation:move 3s 1s alternate infinite;
+}
+.circle:nth-child(3){
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:400px;
+	left:300px;
+	border-radius: 100%;
+	background-color: white;
+	background-image: url("pics/pokemon.jpg");
+	box-shadow: -10px 10px  rgba(0,0,0,0.6);
+	animation:move 3s 2s alternate infinite;
+
+}
+
+.circle:nth-child(4){
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:700px;
+	left:820px;
+	border-radius: 100%;
+	background-color: white;
+	background-image: url("pics/pokemon.jpg");
+	box-shadow: 10px 10px  rgba(0,0,0,0.6);
+	animation:move 3s alternate infinite;
+
+}
+.circle:nth-child(5){
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:800px;
+	left:170px;
+	border-radius: 100%;
+	background-color: white;
+	background-image: url("pics/pokemon.jpg");
+	box-shadow: -10px 10px  rgba(0,0,0,0.6);
+	animation:move 3s 1s alternate infinite;
+
+}
+
+/*.circle:nth-child(6){
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:1100px;
+	left:1250px;
+	border-radius: 100%;
+	background-color: white;
+	background-image: url("pics/pokemon.jpg");
+	box-shadow: 10px 10px  rgba(0,0,0,0.6);
+}*/
+li{
+	line-height: 30px;
+	font-family: Linden Hill;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+article{
+	margin:2em;
+	padding:2em;
+}
+article > p{
+	margin-left:3em;
+	margin-right: 3em;
+}
+
+
+ul{
+	list-style: none;
+}
+
+footer{
+	background-color: white;
+	padding:2em;
+	line-height: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color:gold;
+}
+a:link, a:visited{
+	color:#b55085;
+	/*dark pink*/
+}
+
+@media only screen and (max-width:1200px){
+	.circle{
+		display: none;
+	}
+	#aboutme{
+		display: block;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
