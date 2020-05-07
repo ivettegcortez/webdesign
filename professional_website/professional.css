@@ -48,7 +48,6 @@ p{
 /
 h2{
 	font-size: 3em;
-	background-color: black;
 	padding:1em;
 }
 h2,h3{
@@ -57,8 +56,10 @@ h2,h3{
 	color: #e29191;
 }
 h3{
-	margin:1em;
+	margin:0;
 	font-size: 2.3em;
+	background-color: black;
+	padding:.5em;
 }
 
 
@@ -284,7 +285,26 @@ a:active{
 	#song{
 		padding:2em;
 	}
-	
+
+	form h1{
+		line-height: 50px;
+	}
+
+	#textbox1{
+	    margin-left: 0em;
+	}
+	#textbox2{
+	    margin-left: 0em;
+	}
+	#textbox3{
+	    margin-left: 0em;
+	}
+	#textbox4{
+	    margin-left: 0em;
+	}
+	textarea{
+		width:230px;
+	}
 
 }
 
